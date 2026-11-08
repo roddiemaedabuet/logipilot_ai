@@ -1,0 +1,17 @@
+I have an existing Windows project folder: C:\LogiPilot_AI. Use it as the working directory.
+
+FIRST TASK ONLY: Read AGENTS.md, docs/PROJECT_CONTEXT.md, docs/REQUIREMENTS_TRACEABILITY.csv, docs/ENHANCEMENTS.md and docs/DECK_REQUIREMENTS.md in full. Do not create the PPT, prototype, new requirements, remote Git repo or commits yet.
+
+This is an AI-first logistics application final interview case study. Exactly three core processes have been selected and discovery locked. The source files describe their full scope. Do not rely on your general industry intuition to silently add features or modify those decisions.
+
+Please return a SHORT context audit containing:
+1) Confirmation of the exact three core agentic functions, target customer archetype, and the output contract.
+2) Count of core requirements and future enhancements by process, taken from the CSV; call out any contradictions or material gaps without independently resolving them.
+3) A brief proposed slide outline (including risks, assumptions, in/out of scope and proposed roadmap).
+4) A brief proposed prototype module/screen list and how AI simulation is clearly distinguished from rules/real integration.
+5) A traceability approach: each core requirement must be mapped to one workflow step and one acceptance test/demonstration.
+6) Explicit confirmation that no files were generated beyond this audit, no PPT/prototype coded, and no GitHub action performed.
+
+Ask for approval to proceed to creating the PPT in C:\LogiPilot_AI\presentation\LogiPilot_AI_Scoping_Pack.pptx. After that: interactive React + Vite prototype, testing and README, and finally GitHub **only if I authorize a push**.
+
+Constraints: concise; no invented business requirements, IDs, states, external APIs, customer names, numbers, guarantees or unsupported 'real AI' claims. If something is not specified, label it TBD or PROPOSED ASSUMPTION and report it instead of quietly guessing. Do not mention Maersk in slides or app.

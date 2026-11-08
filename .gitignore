@@ -1,0 +1,37 @@
+# Dependencies and package-manager state
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Application and test outputs
+prototype/dist/
+prototype/coverage/
+prototype/.vite/
+**/.vite/
+test-results/
+playwright-report/
+
+# Local presentation-build and validation artifacts
+.pptx-build/
+.codex-finalizer/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+
+# Logs and local editor/OS files
+*.log
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
